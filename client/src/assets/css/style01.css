@@ -1,0 +1,90 @@
+/* ------------------- Landing Page  -------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+   
+}
+:root{
+    --primary-heading1:rgb(21, 0, 139);
+    --primary-heading2:rgb(29, 0, 191);
+}
+/* Mahendra logo  */
+.logo{
+    height: 170px;
+    width: 170px;
+    margin:5% 0px 50px 0px;
+    
+}
+
+.container-grid {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    
+}
+
+.container-grid h1 {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    color:var(--primary-heading1);
+}
+
+.container-grid h3 {
+    font-size: 1.5em;
+    padding-bottom: 30px;
+    color:var(--primary-heading2);
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:var(--primary-heading2);
+    color:white;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* for icons */
+.imported-icons,.imported-icons-log{
+    margin-right: 5px;
+    margin-bottom: 3px;
+    color: white;
+}
+.imported-icon-user{
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width:992px) {
+    .logo {
+        height: 150px;
+        width: 150px;
+        margin-top:20%;
+        margin-bottom: 20px;}
+    .container-grid h1 {
+            font-size: 2.3rem;
+            padding:0px 5px 35px 5px;}
+    .container-grid h3 {
+            font-size: 1.3em;
+            padding:0px 20px 50px 20px;
+            text-align: center;}
+    .button{
+        font-size: 20px;
+    }
+.imported-icons {
+    margin-right: 1px;
+    margin-top:5px;
+}
+.imported-icons-log {
+    margin-right: 5px;
+    margin-top:2px;
+}
+}
